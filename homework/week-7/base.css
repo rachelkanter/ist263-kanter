@@ -1,0 +1,142 @@
+* {font-family: sans-serif;}
+.page-container {width: 1024px; margin: 0 auto; padding: 0;}
+#logo {width: 150px; height: 150px; float: left; text-align: center;}
+#search {width: 20em; height: 4em; float: right;}
+#search input {width: 17em; height: 3em; float: left;}
+#search-btn {width: 3em; height: 3em; background-color: #ccc; float: right; padding: 0 1em; text-align: center;}
+#search-btn i {padding: 30% 0;}
+#top-panel {margin: 1em 1.5em 1em 1em;}
+#top-banner {background:url(./W7-lab-banner-background.png) no-repeat;height:320px;}
+#banner-heading {background-color: #fff; margin-left:2em; margin-top: 4em; width: 30%; padding: 0.5em; display: inline-block;}
+#banner-list {padding: 1em;}
+#page-center {margin: 0 2em 0 0;}
+#bottom-row {margin: 1em 0; border-bottom:3px solid #666;}
+#social {padding-left: 1em;}
+.grid-row {padding: 1em 0 1em 1em;}
+#extra-img {float: left; padding: 2em 1em;}
+#extra-img img {float: left;}
+#extra-img p {display: inline-block; margin-left: 1em;}
+li.spaced-list {padding-bottom: 1.5em; margin-left: .25em;}
+li.spacing {margin-left: .25em;}
+header {height: 8em; margin: 1em 0; padding: 0;}
+nav {height: 26px; margin: 1em 0; padding: 10px 0 20px 10px; background-color: #ccc; font-size: 32px;}
+.padded {background-color: #ccc; padding: 1em; margin: .75em 0;}
+#center-right {padding: 1em 0 0 1em; margin: 0; margin-left: 1em;}
+#carousel .col {margin: 1em 0 1em 1em;}
+
+/* 
+Review the rest of this CSS file and add comments. The goal of the review is to give you an idea of how this file can be
+reused for future class and individual project work.
+
+The comments should detail
+- What does the class do?
+- What will be a good use case of this class?
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+This class shows that the container occupies a certain width. The container has automatic no margin and a pre-set height. 
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+}
+This class is a type of flex box. The row wrap arranges the row in the same direction as the text and it wraps to the next line according to the width of the flex box.   
+
+.col {
+  display: flex;
+} 
+This class indicates a flex-box. display: flex; sets the parent container. The rest of the content would go in this container. This is useful to set the boundaries for the rest of the content.  
+
+.col-1 {
+  flex: 1;
+}
+This class is setting the flex-box basis to zero. Every flex box width will be compared to the flex-box width of 1.  
+
+.col-2 {
+  flex: 2;
+}
+This class represents that flex box that is 2x the original flex box width. This is useful when you want the content in .col-2 to be responsive to the content in the other flex boxes. The content in each box should look good and work well next to each other.  
+
+.col-3 {
+  flex: 3;
+}
+This class represents the flex box that is 3x the original flex box width. This is useful when you want the content in .col-3 to be responsive to the content in the other flex boxes. The flex boxes should all work and look good together. 
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+This class means that no matter what browers you are using, the image or content is taking up 100% of that page. This is useful to make sure that the content on the page works with the browser space. 
+
+.text-center {
+  text-align: center;
+}
+This class means that the text would be aligned in the center. This is useful if you need your text to be centered on the page. 
+
+.text-right {
+  text-align: right;
+}
+This class meand that the text would be aligned at the right. This would be useful if you needed all your text to be on the right side of the page.  
+
+.card {
+  border: 1px solid #ccc;
+}
+This class means that there is a grey border that is 1 pixel around the entire page. This is useful when you want to clearly define the content in the page by having a border around it. 
+
+.rounded-border {
+  border-radius: 5px;
+}
+This class indicated a border with rounded edges. The border is 5 pixels, which represents the thickness of it. This is useful if you want to have a border, but instead of pointed edges, you have rounded edges. 
+
+.m-1 {
+  margin: 10px;
+}
+This class means the page has a margin of 10 pixels on each side. This is useful when you want to have the same margin dimensions for the entire page.  
+
+.mt-1 {
+  margin-top: 10px;
+}
+This class means that just the margin at the top is 10 pixels. This is useful when you want to adjust the margin on each side differently. 
+
+.ml-1 {
+  margin-left: 10px;
+}
+This class means that just the margin on the left is 10 pixels. This is useful when you want to adjust the margin on each side differently.  
+
+.mr-1 {
+  margin-right: 10px;
+}
+This class means that just the margin on the right side of the page is 10 pixels. This is useful when you want to adjust the margin on each side differently. 
+
+.mb-1 {
+  margin-bottom: 10px;
+}
+This means that just the margin on the bottom of the page is 10 pixels. This is useful when you want to adjust the margin on each side differently. 
+
+.p-1 {
+  padding: 10px;
+}
+This class means that the space between the margin and the content is 10 pixels. This is useful when you want the space between the container and margin to be the same throughout. 
+
+.pt-1 {
+  padding-top: 10px;
+}
+This class means that the space between the margin and content on the top of the page is 10 pixels. This is useful when you want to change the space only on the top of the page. 
+
+.pl-1 {
+  padding-left: 10px;
+}
+This class means that the space between the margin and content on the left side of the page is 10 pixels. This is useful when you want to change the space only on the left side of the page. 
+
+.pr-1 {
+  padding-right: 10px;
+}
+This class means that the space between the margin and content on the right side of the page is 10 pixels. This is useful when you want to change the space only on the right of the page. 
+
+.pb-1 {
+  padding-bottom: 10px;
+}
+This class means that the space between the margin and content on the bottom of the page is 10 pixels. This is useful when you want to change the space only on the bottom of the page. 
+#/
