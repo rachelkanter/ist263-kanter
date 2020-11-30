@@ -1,0 +1,246 @@
+* {font-family: "montserrat", sans-serif}
+a:hover {color: grey;}
+.row {display: flex;}
+.col {float: left; width: 33.33%; padding: 5px;}
+.syr {width: 100%; height: auto; padding-left: 1.5em;}
+.selfie {width: auto; height: 344px; padding-left: 122px;}
+.newhouse {width: 100%; height: auto; padding-right: 1.5em;}
+.container {width: 50%; padding: 5px;}
+.logo {width: 200px; height: auto; float: left; padding-left: 3em;}
+.logos {padding-left: 2em;}
+#heading {padding-bottom: 10.5em;}
+#link-btn {
+    font-size:4em; 
+    float: right; 
+    padding-right: 20px; 
+    padding-top: 30px; 
+    color: indigo;
+}
+#mail-btn {
+    font-size:4em; 
+    float: right; 
+    padding-right: 25px; 
+    padding-top: 30px; 
+    color: indigo
+}
+h1 {
+    text-align: center;
+    font-size: 4em;
+    border: 20px solid #e8bdff;
+    background-color: #e8bdff;
+    font-weight: 700;
+    margin-top: -10px;
+}
+h2 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
+    border: 8px solid #e8bdff;
+    margin: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.intro-content {
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+} 
+h3 {font-size: 2em; font-weight: 600; text-align: center;}
+h4.panel-title {font-size: 2em; color: indigo;}
+h5 {font-size: 18px;}
+p {text-align: center; font-size: 17px;}
+p.body-content {font-size: 15px; text-align: left;}
+p.purple {color: indigo; text-align: right;}
+ul.list {font-size: 13px;}
+#articles {
+    float: right;
+    padding-left: 8px;
+    margin-left: 1em;
+    border: 4px solid lightgrey;
+    margin-bottom: 1em;
+    border-radius: 1em;
+    margin-right: 1.5em;
+    width: 96%;
+}
+#resume {
+    padding-right: 8px;
+    margin-right: 1em;
+    border: 4px solid lightgrey;
+    margin-bottom: 1em;
+    border-radius: 1em;
+    margin-left: 1.5em;
+    width: 110%;
+}
+.reeves {width: 45%; height: auto; margin-left: 14em;}
+.ellen {width: 100%; height: auto;}
+.kaepernick {width: 100%; height: auto;}
+.broadway {width: 100%; height: auto;}
+.summer {width: 75%; height: auto; margin-left: 6em;}
+.billie {width: 100%; height: auto;}
+.sza {width: 45%; height: auto; margin-left: 14em;}
+.smith {width: 45%; height: auto; margin-left: 14em; padding-top: 1em;}
+footer {
+    text-align: center;
+    font-size: 20px;
+    background-color: #e8bdff;
+    border: 8px solid #e8bdff;
+}
+#proj-1 {
+    padding-right: 6px;
+    border: 4px solid lightgrey;
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+    border-radius: 8px;
+}
+#proj-2 {
+    padding-left: 6px;
+    border: 4px solid lightgrey;
+    margin-bottom: 1em;
+    border-radius: 8px;
+    margin-right: 1.5em;
+    margin-left: 2em;
+}
+.campaign {
+    width: auto; height: 767px;
+    padding-left: 7em;
+    padding-top: 2em;
+    margin-bottom: 12px;
+}
+#proj-3 {
+    padding-right: 6px;
+    border: 4px solid lightgrey;
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+    border-radius: 8px;
+}
+#proj-4 {
+    padding-left: 6px;
+    border: 4px solid lightgrey;
+    margin-bottom: 1em;
+    border-radius: 8px;
+    margin-right: 1.5em;
+    margin-left: 2em;
+}
+.front-card {height: auto; width: 100%;}
+.back-card {height: auto; width: 100%;}
+.front-envelope {height: auto; width: 100%;}
+.back-envelope {height: auto; width: 100%;}
+.thank-you-card {height: auto; width: 75%; padding-left: 13em;}
+.cover {padding-bottom: 10px; width: 100%; height: auto;}
+.mag-page-2 {width: 100%; height: auto;}
+.mag-page-3 {padding-top: 10px; width: 100%; height: auto;}
+#school-work {
+    padding-left: 6px;
+    border: 4px solid lightgrey;
+    margin-bottom: 1em;
+    border-radius: 8px;
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+}
+#agency {
+    padding-left: 6px;
+    border: 4px solid lightgrey;
+    margin-bottom: 1em;
+    border-radius: 8px;
+    margin-right: 1.5em;
+}
+.echelon {
+    width: 75%; height: auto;
+    padding-left: 4em;
+    padding-bottom: 1em;
+}
+p.explanation {
+    text-align: center; 
+    font-size: 14px; 
+    color: indigo; 
+    padding-right: 3em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+.billboard {
+    width: 650px; height: auto;
+    padding-left: 2em;
+    padding-bottom: 12px;
+}
+.tnh-logo {
+    padding-left: 16em;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 767px) {
+    .row {width: 96%; display: block;}
+    .container {width: 100%;}
+    #heading {width: 100%; padding-bottom: 5em;}
+    .logo {height: 4.5em; width: auto; margin-top: 8px; padding-left: 1em;}
+    #link-btn {font-size: 2em; padding-right: 16px;}
+    #mail-btn {font-size: 2em; padding-right: 16px;}
+    h1 {font-size: 2em;}
+    .intro-content {font-size: 16px;}
+    .syr {width: 150px; height: auto;}
+    .selfie {width: auto; height: 97.25px; padding-left: 45px;}
+    .newhouse { width: 150px; height: auto; margin-left: 3px;}
+    h2 {font-size: 15px; border: 4px solid #e8bdff;}
+    h3 {font-size: 14px;}
+    p {font-size: 12px;}
+    h4.panel-title {font-size: 13px; color: indigo;}
+    h5 {font-size: 12px;}
+    p.body-content {font-size: 10px;}
+    p.grey {font-size: 9px;}
+    ul.list {font-size: 9px;}
+    #resume {width: 100%; margin-bottom: .5em;}
+    #articles {
+        width: 100%; 
+        margin-right: 0em; 
+        padding-right: .5em;
+        margin-left: 1.5em;
+        float: none;
+        margin-bottom: .5em;
+    }
+    .reeves {margin-left: 6.5em;}
+    .summer {margin-left: 3em;}
+    .sza {margin-left: 6.5em;}
+    .smith {margin-left: 6.5em; padding-top: .5em;}
+    .campaign {width: auto; height: 400px; padding-left: 3em; padding-top: 0em;}
+    .billboard {width: 100%; padding-left: 0em;}
+    .tnh-logo {width: 40%; padding-left: 0em; margin-left: 7em;}
+    #proj-1 {margin-bottom: .5em;}
+    #proj-2 {margin-left: 1.5em; margin-bottom: .5em;}
+    #proj-3 {margin-bottom: .5em;}
+    #proj-4 {margin-left: 1.5em; margin-bottom: .5em;}
+    .thank-you-card {padding-left: 7em;}
+    #agency {margin-left: 1.5em; margin-bottom: .5em;}
+    .echelon {padding-left: 1em; width: 70%; padding-bottom: 0em;}
+    p.explanation {font-size: 12px; padding-bottom: 4px; padding-top: 0em; padding-left: 3em; padding-right: 0em;}
+    footer {font-size: 18px;}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {width: 100%;}
+    #heading {width: 100%; padding-bottom: 9em;}
+    .logo {height: 8.5em; width: auto; margin-top: 4px; padding-left: 1.5em;}
+    #link-btn {font-size: 3.5em; padding-right: 20px;}
+    #mail-btn {font-size: 3.5em; padding-right: 20px;}
+    .selfie {width: auto; height: 176px; padding-left: 70px;}
+    h1 {font-size: 3em;}
+    h2 {font-size: 20px; border: 4px solid #e8bdff;}
+    h3 {font-size: 1.5em;}
+    h4.panel-title {font-size: 25px;}
+    h5 {font-size: 16px;}
+    p {font-size: 16px;}
+    p.body-content {font-size: 15px;}
+    p.grey {font-size: 14px;}
+    .intro-content {font-size: 20px; padding-left: .5em; padding-right: .5em;}
+    #resume {width: 190%;}
+    #articles {width: 95%;}
+    .item {font-size: 10px;}
+    .reeves {margin-left: 9.5em;}
+    .summer {margin-left: 4.5em;}
+    .sza {margin-left: 9.5em;}
+    .smith {margin-left: 9.5em; padding-top: .75em;}
+    .campaign {width: auto; height: 450px; padding-left: 2em; padding-top: 0em;}
+    .billboard {width: 100%; padding-left: 0em;}
+    .echelon {padding-left: 1em; width: 100%; padding-top: 0em;}
+    p.explanation {font-size: 13px; padding-right: 1em; padding-top: 0em; padding-bottom: 0em;}
+    .tnh-logo {width: 45%; padding-left: 0em; margin-left: 7em; padding-top: .25em;}
+    .thank-you-card {padding-left: 5em;}
+}
